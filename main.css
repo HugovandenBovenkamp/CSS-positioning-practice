@@ -60,18 +60,19 @@ p {
     padding: 20px;
     margin: 0 5px;
     color: #383833;
-    font-weight: bold;
+    font-weight: 600;
 }
 
 .navbar a:hover {
     border-bottom: 2px #000000 solid;
 }
 
-/* Section */
+/* header */
 
 section {
     background: transparent linear-gradient(180deg, #DEF0D8 0%, #FAFAFA 100%) 0% 0% no-repeat padding-box;
     opacity: 1;
+    object-fit: cover;
 }
 
 section .container {
@@ -84,13 +85,36 @@ section h1 {
     font-size: 64px;
 }
 
+.button-cta {
+    background-color: #F19A33;
+    color: #ffffff;
+    border: none;
+    padding: 15px;
+    border-radius: 8px;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer;
+    outline: 0;
+}
+
+img .bowl-food {
+    max-width: 100%;
+    height: auto;
+}
+
+.button-cta:hover {
+   background-color: #d98a2b;
+}
+
 /* improve grid system to look more like design */
-section .grid {
+/* section .grid {
     display: grid;
     align-items: center;
     grid-template-columns: 1fr 1fr; 
     gap: 10px;
-}
+} */
 
 section p {
    font-size: 20px;    
